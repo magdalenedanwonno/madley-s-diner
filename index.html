@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Madley's Diner</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <h1>Madley's Diner</h1>
+    <p>The best burgers and pizzas in town.</p>
+</header>
+
+<main class="container">
+
+    <section id="menu"></section>
+
+    <section id="order-section">
+        <h2>Your order</h2>
+        <div id="order-items"></div>
+        <div id="total"></div>
+        <button id="complete-order-btn">Complete order</button>
+    </section>
+
+</main>
+
+<!-- payment modal -->
+<div id="modal" class="modal hidden">
+    <form id="payment-form" class="modal-inner">
+
+        <h2>Enter card details</h2>
+
+        <input type="text" placeholder="Enter your name" id="name" required>
+        <input type="number" placeholder="Enter card number" id="card" required>
+        <input type="number" placeholder="Enter CVV" id="cvv" required>
+
+        <button type="submit">Pay</button>
+
+    </form>
+</div>
+
+<script type="module" src="index.js"></script>
+</body>
+</html>

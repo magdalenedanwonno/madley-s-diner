@@ -1,0 +1,20 @@
+ Madley's Diner
+
+A simple restaurant ordering web app built with vanilla JavaScript, HTML and CSS.
+
+The app renders the menu from a data file, lets users add and remove items, shows a running total, and allows the user to complete an order through a payment modal.
+
+ Features
+- Menu is rendered dynamically from JavaScript
+- Add and remove items from the order
+- Live total price update
+- Payment modal with required form inputs
+- Button changes to “Order completed” after a successful order
+
+ Stretch goals implemented
+- Meal deal discount
+- User rating system with clickable stars
+
+
+This project was built as part of the Scrimba 'Restaurant Ordering App' solo project.
+

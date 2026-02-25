@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeaea;
+}
+
+header {
+    background-image: url("/Catherine_Cote_Classique.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 46px 24px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* -------- MENU -------- */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.menu-emoji {
+    font-size: 44px;
+}
+
+.menu-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.menu-ingredients {
+    margin: 4px 0;
+    font-size: 12px;
+    color: #8b8b8b;
+}
+
+.menu-price {
+    margin: 0;
+    font-size: 14px;
+}
+
+.emoji{
+    font-size: 2.6rem;
+    line-height: 1;
+}
+
+.add-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* -------- ORDER -------- */
+
+#order-section {
+    margin-top: 30px;
+}
+
+#order-section h2 {
+    text-align: center;
+}
+
+.order-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.remove-btn {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #bbbbbb;
+    cursor: pointer;
+}
+
+#total {
+    border-top: 2px solid #393333;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+#complete-order-btn {
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px;
+    border: none;
+    background: #16db99;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* -------- MODAL -------- */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-inner {
+    background: white;
+    width: 90%;
+    max-width: 360px;
+    padding: 22px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-inner h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal-inner input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.modal-inner button {
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    background: #16db99;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#rating-box{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.stars span{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* -------- THANK YOU -------- */
+
+.thank-you {
+    background: #ecfdf5;
+    color: #065f46;
+    padding: 18px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.star{
+    cursor: pointer;
+    font-size: 22px;
+    filter: grayscale(1);
+}
+
+.star.selected{
+    filter: grayscale(0);
+}
