@@ -1,6 +1,6 @@
  Madley's Diner
 
-A simple restaurant ordering web app built with vanilla JavaScript, HTML and CSS.
+A simple Ghanaian restaurant ordering web app built with vanilla JavaScript, HTML and CSS.
 
 The app renders the menu from a data file, lets users add and remove items, shows a running total, and allows the user to complete an order through a payment modal.
 
