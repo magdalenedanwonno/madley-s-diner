@@ -17,7 +17,7 @@ export const menuArray = [
         name: "Drinks",
         package: ["sobolo", "zonkom", "palm wine" ],
         id: 2,
-        price: 10,
+        price: 30,
         emoji: "🥤"
     }
 ]
