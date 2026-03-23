@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url("/Catherine_Cote_Classique.jpg");
+    background-image: url("joff.jpeg");
     background-size: cover;
     background-position: center;
     padding: 46px 24px;
@@ -59,7 +59,7 @@ header p {
     font-size: 18px;
 }
 
-.menu-ingredients {
+.menu-package {
     margin: 4px 0;
     font-size: 12px;
     color: #8b8b8b;

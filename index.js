@@ -91,8 +91,8 @@ function renderMenu(){
 
                     <div>
                         <p class="menu-title">${item.name}</p>
-                        <p class="menu-ingredients">
-                            ${item.ingredients.join(", ")}
+                        <p class="menu-package">
+                            ${item.package.join(", ")}
                         </p>
                         <p class="menu-price">$${item.price}</p>
                     </div>
